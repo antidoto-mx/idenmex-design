@@ -231,7 +231,7 @@ hr.short-thick {
 }
 .p-title{
   color: #656565;
-  font-weight: 100;
+  font-weight: 500;
   font-size: 13px;
 }
 .normal-price {
@@ -305,6 +305,7 @@ hr.short-thick {
 }
 .other-colors{
   overflow: hidden;
+  padding-top: 10px;
 }
 .other-colors img{
   display: block;
@@ -619,6 +620,33 @@ hr.short-thick {
   -moz-transform: translate(0px,0px); /* firefox */
   transform: translate(0px,0px);
   opacity: 1;
+}
+.ca-order-number{
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+.ca-nu{
+    clear: both;
+    display: block;
+    text-align: center;
+}
+.mail-title{
+    border-bottom: 1px solid #D8D8D8;
+    line-height: initial;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+}
+.other-colors a{
+  transition:.35s;
+  display: block;
+}
+.other-colors a:hover{
+  -ms-transform: translate(0px,-10px); /* IE 9 */
+  -webkit-transform: translate(0px,-10px); /* Safari */
+  -moz-transform: translate(0px,-10px); /* firefox */
+  transform: translate(0px,-10px);
 }
 .backstreet:hover .water-bottom h3{
   opacity: 1;
