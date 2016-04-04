@@ -621,6 +621,26 @@ hr.short-thick {
   transform: translate(0px,0px);
   opacity: 1;
 }
+.facebook-fixed {
+  position: fixed;
+  z-index: 100;
+  display: block;
+  right: -40px;
+  background: #3d589e;
+  bottom: 50%;
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  color: #fff;
+  padding: 15px 20px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.facebook-fixed:hover{
+  color: #fff;
+  background-color: #000;
+}
 .ca-order-number{
   float: right;
   margin-top: 10px;
