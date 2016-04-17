@@ -1299,3 +1299,15 @@ var mr_cookies = {
 \*/
 
 
+$(document).on('click', '.form-btn', function(){
+    $(this).fadeOut(function(){
+        $(".fixed-forms").slideDown()
+    });
+});
+$(document).on('click', '.close-form', function(){
+    $('.fixed-forms').slideUp(function(){
+        $(".form-btn").fadeIn()
+    });
+});
+
+
